@@ -2,7 +2,7 @@ module BarServe
   module Models
     class Order
       include Mongoid::Document
-      store_in collection: "orders", database: "app29704509"
+      store_in collection: "orders", database: "heroku_app32646000"
 
       field :id, type: String, description: "Id."
       field :orderid, type: String, description: "Order Id."
